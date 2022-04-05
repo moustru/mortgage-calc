@@ -1,0 +1,54 @@
+.calc {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+
+  &-form {
+    margin-right: 100px;
+
+    &__initial-fee {
+      margin: 20px 0;
+    }
+
+    &__checkbox {
+      margin-bottom: 5px;
+    }
+
+    &__term {
+      margin: 20px 0;
+
+      &-title {
+        margin-bottom: 10px;
+        color: #a5a5a5;
+      }
+
+      .range {
+        width: 100%;
+      }
+    }
+  }
+
+  &-results {
+    width: 40%;
+
+    &__line {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    &__item {
+      width: 48%;
+
+      &-title {
+        font-size: 14px;
+        color: #a5a5a5;
+      }
+
+      &-count {
+        font-size: 30px;
+        font-weight: 800;
+      }
+    }
+  }
+}
